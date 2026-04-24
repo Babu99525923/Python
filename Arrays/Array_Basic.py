@@ -9,3 +9,11 @@ print(numbers[0])
 # Whenever we print the numbers it will print with array only
 # print(numbers)   will print array('i', [10, 20, 30])
 # to print it clean either conver it to list
+
+
+numbers.append(40)
+
+print(numbers)
+
+numbers.remove(20)
+print(numbers)
